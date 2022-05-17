@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <!--Table = Tabela / TR =Linhas / TH = Cabeçalho / TD = Table DATA-->
+    <h1>Trabalho com Tabelas</h1>
+    <h2>Simples</h2>
+    
+    <table>Jogo
+        <tr>
+            <th></th>
+            <th>Fluminense</th>
+            <th>Vila Nova</th>
+        </tr>
+    <tr>
+        <td>05/05/2022</td>
+        <td>3</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>11/05/2022</td>
+        <td>2</td>
+        <td>0</td>
+    </tr>
+        <td><b>Saldo</b></td>
+        <td>5</td>
+        <td>2</td>
+    </table>
+
+    <h3>Tabela</h3>
+        <table>
+        <tr>   
+            <th rowspan="2" cospan="2">Linha / Coluna</th> <!--Mescla Linhas-->
+            <th>Coluna</th>
+            <th>Coluna</th>
+            <th>Coluna</th>
+        </tr>
+
+        </table>
+
+    <h2>Tabela Completa</h2>
+
+        <table> <!--Criação de Tabela-->
+            <caption><b> 10 Linguagens de programação mais usadas pelas empresas</b> </caption>
+            <thead> <!--Indica Cabeçalho da tabela-->
+            <tr> <!--Linha da Tabela-->
+                <th scope="col">Ranking</th> <!--Titulo da Coluna-->
+                <th scope="col">Linguagem</th> <!--Titulo da Coluna-->
+                <th scope="col">Ano de Criação</th> <!--Titulo da Coluna-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Python</td>
+                <td>1990</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>JavaScript (js)</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Java</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>TypeScript</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Go</td>
+                <td>2009</td>
+            </tr>
+                <td>6</td>
+                <td>C++</td>
+                <td>1980</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ruby</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>PHP</td>
+                <td>1994</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>C#</td>
+                <td>1999</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>C</td>
+                <td>1972</td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+    <!--Colspan Serve para Mesclar colunas-->
+                    <th colspan="2" scope="row">Total Linguagens</th> 
+                    <td>10</td>
+                </tr>
+           
+            <tr>
+                <td colspan="3"><b>Segundo levantamento do GitHub no último trimestre de 2021</b></td>
+            </tr>
+        </tfoot>
+            
+        </table>
+
+
+
+
+
+
+</body>
+</html>

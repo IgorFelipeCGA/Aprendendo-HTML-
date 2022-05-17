@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo mídias</title>
+</head>
+<body>
+    
+    <h1>Midias</h1>
+    <h2>Audio</h2>
+    <h3>Simples</h3>
+    <audio src="audio/musica.mp3" controls loop></audio> <!-- Loop Repete </!--> 
+
+    <h2>Compatibilidade</h2>
+    <audio controls preload="metadata">
+<!-- Preload Metadata, none e auto-->
+        <source src="audio/musica.mp3dd" type="audio/mpeg">
+        <source src="audio/musica.ogg" type="audio/ogg">
+        <source src="audio/musica.wav" type="audio/wav">
+        <p>Desculpa, tivemos um problema!</p>
+    </audio>
+
+    <h2>Video</h2>
+    <h3>Local</h3>
+    <h4>Gato</h4>
+    <h5>MP4</h5>
+<video src="video/gato.mp4" poster="" controls loop></video>
+
+    <h5>Compatibilidade</h5>
+
+<video controls preload="metadata">
+    <source src="video/gatinho.mp4" type="video/mp4">
+    <source src="video/gatinho.m4v" type="video/m4v">
+    <source src="video/gatinho.webm" type="video/webm">
+</video>
+
+<h3>Servidor</h3>
+<h4>Youtube</h4> 
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wCj6XrhMAF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src=" https://www.youtube.com/embed/wCj6XrhMAF8"></iframe>
+
+<h2>Incorporação</h2>
+<h3>Paginas</h3>
+
+    <iframe src="../Estrutura/Texto.html" width="720" frameborder="0"  ></iframe>
+
+<h3>PDF</h3>
+
+    <iframe src="../Arquivos/img/Lorem/lorem.pdf" width="720" frameborder="0"  ></iframe>
+
+<h3>Spotify</h3>
+<!--IFRAME SRC LINK PARA SITES DE TRANSMISSAO NO GERAL INCORPORANDO DIRETO DOS SITES OU LINK -->
+    <iframe
+
+</body>
+</html>

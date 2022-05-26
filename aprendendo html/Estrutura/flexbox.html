@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{ 
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap; /* quebra de linha */
+        justify-content: space-between ; /*alinhamento horizontal */
+        align-items:flex-start; /* alinhamento vertical */
+        flex-direction: row-reverse;
+    }
+    .box-container{
+        width: auto;
+        color: white;
+        background-color: blue;
+        border: 2px solid red;
+    }
+    .box-container:nth-child(1){
+        background-color: blueviolet;
+        width: 65%;
+        
+    }
+    .box-container:nth-child(2){
+        background-color: rosybrown;
+        width: 30%;
+    }
+    
+    /* menu */
+    header{
+        background-color: #c3c3c3;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
+        
+    header nav ul{
+        display: flex; 
+        list-style: none;
+        
+
+    }
+    header nav ul li{
+        margin: 10px;
+        font-size: 18px; 
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 16pt;
+        font-family: sans-serif;  
+        transition: all ease-in 0.8s;  /* efeito de transição */    
+        padding: 10px;
+    }
+    a:hover{
+        opacity: 0.5;
+        text-decoration: underline;
+        color: black;
+        margin-right: 20px;
+    }
+    
+</style>
+<body>
+    <h1>Flexbox</h1>
+    <h2>Exemplo 1</h2>
+    <div class="container">
+        <div style="order:1"  class="box-container">Video Principal Youtube</div>
+        <div style="order:3" class="box-container">Videos</div>        
+    </div>
+    <Div>
+        <h2>Exemplo 2</h2>
+        <header>
+            <a href="">logo</a>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Suporte</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </a>
+        </header>
+    </Div>
+</body>
+</html>

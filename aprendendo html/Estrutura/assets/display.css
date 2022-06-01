@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BLOCK */
+.block{
+
+}
+.block h1{
+    text-align: center;
+}
+.block .b{
+    display: block;
+    width: 300px;
+    border: 2px red;
+    margin-bottom: 10px;
+}
+/* INLINE */
+.inline{
+
+}
+.inline h1{
+    text-align: center;
+}
+.inline .i{
+    display: inline;
+    width: 300px;
+    border: 1px solid brown;
+}
+/* INLINE BLOCK */
+
+.inline-block{
+
+}
+.inline-block h1{
+    text-align: center;
+}
+.inline-block .ib{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border: 3px solid violet;
+    margin-bottom: 5px;
+}
+/* NONE */
+
+.none{
+
+}
+.none h1{
+    text-align: center;
+}
+.none .n{
+    display: none;
+    width: 300px;
+    border: 5px solid aqua;
+    margin-bottom: 10px;
+}
+
+/* MAIN */
+main{
+    height: 600px;
+    background-color: cadetblue;
+}
+main h1{
+    text-align: center;
+
+}
+main ul{
+    display: flex;
+    list-style: none;
+}
+main ul li {
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+ /* DROPDOWN */
+
+main ul li div{
+    position: absolute;
+    top: 20px;
+    display: none;
+    width: 400px;
+    height: 400px;
+    
+}
+main ul li div img{
+    width: 100%;
+}
+main ul li:hover div{
+    display: block;
+}

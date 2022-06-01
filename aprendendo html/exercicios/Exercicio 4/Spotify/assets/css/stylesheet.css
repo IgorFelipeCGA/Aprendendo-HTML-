@@ -1,0 +1,225 @@
+*{
+    font-family: Arial, Helvetica;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:block;
+    justify-content:center;
+    height: 80px;
+    background-color: #000000;
+    padding-left: 38px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    background-color: #000000;
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+    margin-left: 38%;
+    
+}
+
+.menu{
+    
+    display: flex;   
+    align-items:center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul,
+nav li{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-transform: ;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .active a, 
+nav a:hover{    
+    color: #1DB954;
+}
+
+article{
+    display: block;
+}
+.comecar {  
+    background: #000000;
+    padding: 13.5px 27px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;   
+    color: #fff;    
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.comecar:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+
+.button:active {
+    
+}
+
+
+.button {
+    border: 2px solid #fff;
+    background: #1d75de;
+    padding: 13.5px 27px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;   
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+ .button:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;    
+}
+ .button:active {
+    
+}
+
+
+
+.premium{
+    background-color: #1d75de;
+    padding-top: 50px;
+    justify-content: right;
+}
+
+.containeroferta{
+    display: flex  ;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    height: 300px;
+    background-color: #1d75de;
+    margin-left: 20%;
+    
+}
+
+.oferta{
+   
+    background-color: #1d75de;
+    text-align: left;
+    color: #fff;
+}
+
+.bottao{
+    
+    display:inline-block;
+    position: relative;
+    justify-content: flex-start;
+    transform: translate3d(0px, 0px, 0px);    
+}
+
+.botaodois{
+    display: inline-block;   
+    position: relative;   
+}
+/* VANTAGENS PREMIUM */
+
+.vantagenspremium {
+    height: 470px;
+    
+}
+
+.vantagem{
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.vantagemimg img{
+    
+    width: 150px;
+    border-radius: 75%;
+    justify-content: center;
+}
+.vantagemimg .p{
+    font-size: large;
+    padding-bottom: 50px;
+    }
+
+
+.vantagenspremium ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.vantagenspremium li{
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* Planos */
+.grid-spotify .grid-item:nth-child(1){
+    background-color: rgb(228, 228, 228);
+    height: 1000px;
+}
+.grid-spotify .grid-item:nth-child(1) h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.grid-spotify .grid-item:nth-child(1) h4{
+    padding-bottom: 50px;
+    text-align: center;  
+
+}
+/* tipos de planos */
+.grid-spotify .grid-item:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    
+}
+
+
+
+
+
+    
+
+
+
+
